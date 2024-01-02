@@ -9,6 +9,7 @@ const SearchBox = ({ handleSearch }) => {
         placeholder="搜尋想參加的活動"
         onKeyDown={(e) => {
           if (e.key === "Enter") {
+            e.preventDefault();
             handleSearch(e.target.value);
           }
         }}
