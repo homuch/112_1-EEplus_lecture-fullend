@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "The Shawshank Redemption",
+    "timeStart": "2019-01-01T00:00:00.000Z",
+    "timeEnd": "2019-01-01T02:00:00.000Z",
+    "comments": [
+      {
+        "id": "1",
+        "text": "This is a comment",
+        "userName": "John Doe"
+      },
+      {
+        "id": "2",
+        "text": "This is another comment",
+        "userName": "John Doe"
+      }
+    ],
+    "joined": false
+  },
+  {
+    "id": "2",
+    "title": "Inception",
+    "timeStart": "2021-05-15T18:00:00.000Z",
+    "timeEnd": "2021-05-15T20:30:00.000Z",
+    "comments": [],
+    "joined": true
+  },
+  {
+    "id": "3",
+    "title": "The Dark Knight",
+    "timeStart": "2021-06-10T20:00:00.000Z",
+    "timeEnd": "2021-06-10T22:30:00.000Z",
+    "comments": [
+      {
+        "id": "1",
+        "text": "Great movie!",
+        "time": "2021-06-10T20:05:00.000Z",
+        "userName": "John Doe"
+      }
+    ],
+    "joined": true
+  }
+]

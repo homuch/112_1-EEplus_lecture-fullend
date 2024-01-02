@@ -5,17 +5,16 @@ const eventSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  dateStart: {
+  timeStart: {
     type: Date,
     required: true,
   },
-  dateEnd: {
+  timeEnd: {
     type: Date,
     required: true,
   },
   attendees: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
-  comments_user: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
-  comments_text: [{ type: String }],
+  comments: [{ type: mongoose.Schema.Types.ObjectId, ref: "Comment" }],
 });
 
 const Event = mongoose.model("Event", eventSchema);

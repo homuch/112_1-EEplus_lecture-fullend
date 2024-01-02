@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const routes = require("./routes");
 const db = require("./db");
+const initializeEvents = require("./init");
 
 const app = express();
 app.use(cors());
@@ -19,3 +20,5 @@ app.listen(port, () => {
 });
 
 db.connect();
+
+// initializeEvents();

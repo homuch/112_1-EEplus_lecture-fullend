@@ -2,7 +2,7 @@
   "name": "wp-hw3-clone",
   "version": "1.0.0",
   "scripts": {
-    "dev": "cd client && yarn dev && cd ../server && yarn dev"
+    "dev": "cd client && yarn dev & cd ../server && yarn dev"
   },
   "main": "index.js",
   "license": "MIT"
